@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <main>
+        <div>
+            <h1>Calculator</h1>
+        </div>
+    <div class="calculator">
+        <div class="output">
+            <div id="input-output">0</div>
+            <input type="text" id="display" disabled>
+        </div>
+        <div class="keypad" onclick="handleButtonClick(event)">
+            <button data-operation="clear" class="operator clear">C</button>
+            <button data-operation="backspace" class="operator">&larr;</button>
+            <button data-operation="/" class="operator">/</button>
+            <button data-operation="*" class="operator">*</button>
+            <button data-operation="7">7</button>
+            <button data-operation="8">8</button>
+            <button data-operation="9">9</button>
+            <button data-operation="-" class="operator">-</button>
+            <button data-operation="4">4</button>
+            <button data-operation="5">5</button>
+            <button data-operation="6">6</button>
+            <button data-operation="+" class="operator">+</button>
+            <button data-operation="1">1</button>
+            <button data-operation="2">2</button>
+            <button data-operation="3">3</button>
+            <button data-operation="." class="operator">.</button>
+            <button data-operation="0" disabled></button>
+            <button data-operation="0" >0</button>
+            <button data-operation="0" disabled></button>
+            <button data-operation="=" class="operator equal">=</button>
+
+
+        </div>
+    </div>
+</main>
+<footer>
+    created with ❤️ by Rahul SK
+</footer>
+    <script src="index.js"></script>
+</body>
+</html>
